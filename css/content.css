@@ -21,7 +21,7 @@ li {list-style: none;}
     align-items: center;
     justify-content: space-between;
     padding: 15px;
-    background: linear-gradient(15deg, #880088, #aa2068, #cc3f47, #de6f3d, #f09f33, #de6f3d, #cc3f47, #aa2068, #880088) no-repeat;
+    background: linear-gradient(15deg, #DF0024, #F3C300, #2E6DB4, #00AC9F, #DF0024, #F3C300, #2E6DB4, #00AC9F) no-repeat;
     background-position: left center;
     color: #fff;
     width: 100%;
@@ -42,7 +42,7 @@ img {
     font-size: 18px;
 }
 .menu li:hover {
-    background: linear-gradient(15deg, #880088, #aa2068, #cc3f47, #de6f3d, #f09f33, #de6f3d, #cc3f47, #aa2068, #880088) no-repeat;
+    background: linear-gradient(15deg,  #DF0024, #F3C300, #2E6DB4, #00AC9F, #DF0024, #F3C300, #2E6DB4, #00AC9F) no-repeat;
     transition: 0.4s ease;
     background-position: right center;
     border-radius: 30px;
@@ -80,7 +80,7 @@ img {
 
 
 h1 {
-	font-family: 'Dancing Script', cursive;
+	font-family: 'Ubuntu', sans-serif;
 	font-size: 80px;
 	margin-bottom: 30px;
 }
@@ -143,34 +143,25 @@ h3, p {
 
 .l-wrapper {
     float: left;
-    height: 420px;
-    width: 654px;
+    height: 360px;
+    width: 562px;
     margin: 3%;
     background-color: white;
-    border-radius: 7px 7px 7px 7px;
-    /* VIA CSS MATIC https://goo.gl/cIbnS */
-    -webkit-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
-    -moz-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
-    box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
 }
 
 .r-wrapper {
     float: right;
-    height: 420px;
-    width: 654px;
+    height: 360px;
+    width: 562px;
     margin: 3%;
     background-color: white;
     border-radius: 7px 7px 7px 7px;
-    /* VIA CSS MATIC https://goo.gl/cIbnS */
-    -webkit-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
-    -moz-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
-    box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
 }
 
 .product-img {
     float: left;
-    height: 420px;
-    width: 327px;
+    height: 360px;
+    width: 281px;
     padding: 10px;
 }
 
@@ -182,15 +173,15 @@ h3, p {
 
 .product-info {
     float: left;
-    height: 420px;
-    width: 327px;
+    height: 360px;
+    width: 281px;
     border-radius: 0 7px 10px 7px;
     background-color: #ffffff;
 }
 
 .product-text {
     height: 300px;
-    width: 327px;
+    width: 280px;
 }
 
 .product-text h1 {
